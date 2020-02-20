@@ -32,6 +32,21 @@ class CollisionManager
                     ScoreManager.Score += 100
                     gameViewController?.updateScoreLabel()
                     scene.run(SKAction.playSoundFileNamed("yay", waitForCompletion: false))
+                    if (ScoreManager.Score == 500) {
+                        gameViewController!.v1.isHidden = false
+                    } else if ScoreManager.Score == 1000 {
+                        gameViewController!.v1.isHidden = true
+                        gameViewController!.v2.isHidden = false
+                    } else if ScoreManager.Score == 1500 {
+                        gameViewController!.v2.isHidden = true
+                        gameViewController!.v3.isHidden = false
+                    } else if ScoreManager.Score == 2000 {
+                        gameViewController!.v3.isHidden = true
+                        gameViewController!.v4.isHidden = false
+                    } else if ScoreManager.Score == 2500 {
+                        gameViewController!.v4.isHidden = true
+                        gameViewController!.v5.isHidden = false
+                    }
                     break
                 case "cloud":
                     

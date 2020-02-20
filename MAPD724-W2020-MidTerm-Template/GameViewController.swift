@@ -22,6 +22,12 @@ class GameViewController: UIViewController, GameManager {
     @IBOutlet weak var LivesLabel: UILabel!
     @IBOutlet weak var ScoreLabel: UILabel!
     
+    @IBOutlet weak var v1: UIImageView!
+    @IBOutlet weak var v2: UIImageView!
+    @IBOutlet weak var v3: UIImageView!
+    @IBOutlet weak var v4: UIImageView!
+    @IBOutlet weak var v5: UIImageView!
+    
     var currentScene: SKScene?
     
     override func viewDidLoad()
@@ -125,6 +131,7 @@ class GameViewController: UIViewController, GameManager {
         updateScoreLabel()
         SetScene(sceneName: "GameScene")
         
+        
     }
     
     @IBAction func BackButton_Press(_ sender: Any)
@@ -137,6 +144,11 @@ class GameViewController: UIViewController, GameManager {
         updateLivesLabel()
         updateScoreLabel()
         SetScene(sceneName: "GameScene")
+        v1.isHidden = true
+        v2.isHidden = true
+        v3.isHidden = true
+        v4.isHidden = true
+        v5.isHidden = true
     }
     
     

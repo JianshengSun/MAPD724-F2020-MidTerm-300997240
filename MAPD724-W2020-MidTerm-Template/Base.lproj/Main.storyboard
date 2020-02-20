@@ -57,6 +57,36 @@
                                 <color key="textColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gjc-9e-kTf" userLabel="v1">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.11882070451974869" green="0.10101185033764704" blue="0.098349895805058998" alpha="0.2010618397887324" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.097326144366197187" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="THk-bL-K9T" userLabel="v2">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.11882070451974869" green="0.10101185033764704" blue="0.098349895805058998" alpha="0.39863006161971831" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.097326144370000006" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z5C-pQ-spV" userLabel="v3">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1188207045" green="0.1010118503" blue="0.098349895810000004" alpha="0.60409330987042253" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.097326144370000006" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x0G-rg-BrJ" userLabel="v4">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.11882070451974869" green="0.10101185033764704" blue="0.098349895805058998" alpha="0.70163952464788737" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.097326144370000006" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2vY-Ld-6Nc" userLabel="v5">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1188207045" green="0.1010118503" blue="0.098349895810000004" alpha="0.79684749120845066" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.097326144370000006" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
@@ -67,11 +97,16 @@
                         <outlet property="ScoreLabel" destination="vqD-hz-OK4" id="ZLM-f4-sLk"/>
                         <outlet property="StartButtonOutlet" destination="IFt-Ic-biy" id="meJ-lb-UBj"/>
                         <outlet property="StartLabel" destination="Q5n-19-1SP" id="1FM-Q4-DvX"/>
+                        <outlet property="v1" destination="gjc-9e-kTf" id="aiy-rN-fNY"/>
+                        <outlet property="v2" destination="THk-bL-K9T" id="rdc-20-Zfs"/>
+                        <outlet property="v3" destination="z5C-pQ-spV" id="Ggh-C2-Lad"/>
+                        <outlet property="v4" destination="x0G-rg-BrJ" id="O2P-7L-Bws"/>
+                        <outlet property="v5" destination="2vY-Ld-6Nc" id="oH8-Ow-ByQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="69.642857142857139"/>
+            <point key="canvasLocation" x="131.25" y="69.565217391304358"/>
         </scene>
     </scenes>
     <resources>
